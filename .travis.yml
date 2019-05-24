@@ -1,0 +1,8 @@
+language: shell
+sudo: true
+addons:
+    apt:
+        packages:
+            - linkchecker
+script:
+    - linkchecker www.google.com

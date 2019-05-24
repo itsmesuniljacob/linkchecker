@@ -5,4 +5,4 @@ addons:
         packages:
             - linkchecker
 script:
-    - linkchecker www.google.com
+    - linkchecker www.google.com -r2

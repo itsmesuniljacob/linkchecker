@@ -5,4 +5,4 @@ addons:
         packages:
             - linkchecker
 script:
-    - https://www.tiobe.com/tiobe-index -r2
+    - linkchecker https://www.tiobe.com/tiobe-index -r2
